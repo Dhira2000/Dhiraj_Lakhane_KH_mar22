@@ -1,0 +1,19 @@
+import java.util.*;
+class CircleObject
+{
+  float f;
+  double area(float f)
+  { 
+  final double pi=3.14;
+  //float f= c1.nextFloat();
+  double a= (f*f)*pi;
+  System.out.println("Area= "+a);
+  }
+{ public static void main(String[]args)
+  {
+    CircleObject c1= new CircleObject(System.in);
+	System.out.println("Enter radius value =");
+	c1.f=();
+	c1.a(c1.f);
+	}
+}	

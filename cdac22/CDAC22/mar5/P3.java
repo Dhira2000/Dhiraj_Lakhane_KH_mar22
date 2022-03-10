@@ -1,0 +1,19 @@
+class P3
+{ public static void main(String[]args)
+ { 
+   for(int i=1; i<=6; i++)
+   {  
+     System.out.println(" ");
+    // if(i==6)
+	 //{ System.out.println("o ");
+	 //}
+	 
+	 for(int j=4; j>=i; j--)
+	 { System.out.print(" ");
+	 }
+	 System.out.println();
+	}
+  }
+}	
+	 
+	 

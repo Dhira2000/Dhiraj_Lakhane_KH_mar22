@@ -1,0 +1,10 @@
+class Variable1
+{
+public static void main(String args[])
+{
+long a=11800L;
+long b=78470L;
+sum k=a+b;
+System.out.println("First Installment is "+a+"Second Installment is "+b+"Total kitna liya "+k);
+}
+}

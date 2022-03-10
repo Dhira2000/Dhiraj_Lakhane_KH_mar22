@@ -1,0 +1,20 @@
+class CmdArgs1
+{
+ public static void main(String args[])
+  {
+   String s1= args[0];
+   String s2= args[1];
+   String s3= args[2];
+   String s4= args[3];
+   
+   int i= Integer.parseInt(s1);
+   int f= Integer.parseInt(s2);
+   short sh=Short.parseShort(s3);
+   int j= Integer.parseInt(s4);
+   
+   System.out.println("Result = "+((i > f ) && (sh < j) ? "i+f-j":"i+f-sh"));
+   //< sh < j
+   
+   }
+ }  
+   
